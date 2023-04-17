@@ -1,0 +1,92 @@
+		instarections to use allibAM
+after you install the foulder in cmd go to file path and in cmd type 'pip install -r requirements.txt' and wait to install the back with we need.
+
+in 'to_me' you can send a maessage to me;
+	just you need to Enter your text in 'tometext' and Done.
+
+in 'dont_click' and 'dont_click_2' and 'dont_click_1' please DONT click on them they are seuret files.
+
+in 'sound' it will play a beep sound:
+	just you need to Enter how long you want to play in milsec and frecanc of your beep in 'frecanc'.
+
+in 'play_sond' it will play the song in the same path as your file is:
+	just Enter your file name in 'filename'
+
+in 'soundviros' it is same as 'sound' but this time it will reppet it forever!!!
+
+in 'dolartotoman' you Enter the aud(Australian doler) and it will give you the tomman(monny of IRAN):
+	Just Enter aud in 'audoler' and Done.
+
+in 'fileboomberv' it will mack file forever:
+	just Enter the name of your file in 'name' and format of your file without . in 'format_without_dot' and file sise 1000 = 1mb in 'filesise'.
+
+in 'foldermacker' it will mack folder forever:
+	just Enter How many folder you want in 'numberoffolders' and name of your folder in 'name'.
+
+in 'ip_get_with_tele' you can get the ip and host_name and send it to your telegram bot:
+	first you need to talk to botfather and at a API/token of your bot and put it in 'bottoken' and to get the your chatid go to 1 bot and type startcand put your chatid in 'chatid'
+	botfather link = https://t.me/BotFather
+	chatid geter link = https://t.me/useridinfobot
+
+in 'sleep' you can sleep your app for How much you want:
+	just Enter Hoe mech you want to your app sleep in 'sleeptime'
+
+in 'rand' you can Enter to numbers and it will randomly chose 1 for you:
+	just Enter number1 in 'number1' and number 2 in 'number2'
+
+in 'filemacker' if is same as 'fileboomberv' but this time you can add How mach and the path of your file
+
+in 'aboutmeandmylib' I talk a littell about me and this alllibAM
+
+in 'aboutyou' you can send your massage to me
+
+in 'STARTcmdnotpad' it will start cmd and Nodepad How mach you want.
+
+in 'cmdWrite' you can use you cmd text in your app
+
+in 'startCMD' it is same as 'STARTcmdnotpad' but this time only cmd
+
+in 'StartNotepad' it is same as 'STARTcmdnotpad' but this time only Notepad
+
+in 'startcmdnotpadviros' it is same as 'STARTcmdnotpad' but this time forever
+
+in 'rockpaper' it is a rock paper... game:
+	just Enter alllibAM in 'username1' and python_lib in 'password2' and your name in 'name' and injoy your game
+
+in 'lockmouseandkebourdviros' you can lock your mouse and keybourd lock and type only your text!!!dont try it!!!
+
+in 'lockmouse' it is same as 'lockmouseandkebourdviros' but this time only mouse
+
+in 'lockkebourd' it is same as 'lockmouseandkebourdviros' but this time only keybourd
+
+in 'errortab' it will open error tab howmach you want
+
+in 'errortabviros' it  is same as 'errortab' but this time forever
+
+in 'talkingbot' you just Enter the text and pc will talk
+
+in 'senmacker' you just Enter your info and it will make a sen to you
+
+in 'spamerbox' it will write you the text you want How mach you want
+
+'telesend' is only for me
+
+in 'cls' it will clear you screen
+
+in 'Delete' it will Delete 1 file you want, just Enter the path of your file wich you want to Delete
+
+in 'Deletewithformat' it is same as 'Delete' but this time it Delete not by path it Delete with file format in each drive
+
+'certificate' is only for me
+
+in 'filesaver' if save a txt file in what text and wear you like
+
+in'pass_word_list_macker' it will mack a password list
+
+in 'site_ip' it will give the ip of site
+
+in 'teb_opener' it will open the new tab what you sayed
+
+
+
+
