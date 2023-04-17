@@ -74,6 +74,7 @@ def sound(milsec , frecanc):
 def play_sound(filename):
     import winsound
     winsound.PlaySound(filename)
+#-------------------------------------
 def soundviros(frecanc):
     from winsound import Beep
     while True:
