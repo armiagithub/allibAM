@@ -204,7 +204,9 @@ def aboutmeandmylib(name):
             os.system('cls')
             print(f'''{F.LIGHTMAGENTA_EX}Hello {name} I make this library when the main system is broken and the number of sections is low
             And some of them may not work on your system.
-            {F.RED}if you need help message me on tlegram{F.LIGHTBLUE_EX}:+989387717722''')
+            {F.RED}if you need help message me on tlegram{F.LIGHTBLUE_EX}:+989387717722
+            email: armiaanila@yahoo.com
+            my site: https://techlearnprogramming.w3spaces.com/''')
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 def aboutyou(*text1):
     import requests as req
