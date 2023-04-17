@@ -243,7 +243,7 @@ def STARTcmdnotpad(HowMeny):
     while a < HowMeny+1:
         system('start CMD.exe')
         system('start Notepad.exe')
-        a+=a+1
+        a=a+1
 #-------------------------------------------------
 def cmdWrite(cmdcode):
     from os import system
@@ -291,8 +291,8 @@ def rockpaper(username1,password2,namestr):
     password =  password2
 
     data_base = {
-        "Usr" : "Armia admin",
-        "pss" : "1366222547"
+        "Usr" : "alllibAM",
+        "pss" : "python_lib"
     }
     sl(1.5)
     os.system('cls')
@@ -306,9 +306,10 @@ def rockpaper(username1,password2,namestr):
             username =  username1
             password = password2
             data_base = {
-                "Usr" : "Armia admin",
-                "pss" : "1366222547"
-    }
+                "Usr" : "alllibAM",
+                "pss" : "python_lib"
+            }
+    sl(1.5)
 
             if (username == data_base["Usr"]) and (password == data_base["pss"]):
                 print(f"Welcome To Account")
