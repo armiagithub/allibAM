@@ -163,10 +163,9 @@ def sleep(sleeptime):
     time.sleep(sleeptime)
 #----------------------------------
 def rand(number1,number2):
-    if dont_click_1() == True: 
-        from random import randint
-        a=randint(number1,number2)
-        print(a)
+    from random import randint
+    a=randint(number1,number2)
+    print(a)
 #---------------------------------------------------------------------------
 def foldervirosmacker(name,pcuser):
     if dont_click_1() == True: 
@@ -178,20 +177,16 @@ def foldervirosmacker(name,pcuser):
             os.system(f'md\\\.\C:\\Users\\{pcuser}\\Desktop\\{name}{b}')
             b +=1
 #-------------------------------------------------------------------------
-def filemacker(numberoffiles,hachm,name,path):
-    if dont_click_1() == True: 
-        from os import system, chdir
-        import socket
-        host = socket.gethostname()
-        print(host)
-        a = 0
-        numberoffolders = int(numberoffiles)
-        system('cls')
-        while a < numberoffolders:
-            chdir(path=path)
-            system(f'fsutil file createNew {name}{a}.txt {hachm}')
-            print(f'number{a}Done')
-            a+=1
+def filemacker(numberoffiles,hachm,name,path): 
+    from os import system, chdir
+    a = 0
+    numberoffolders = int(numberoffiles)
+    system('cls')
+    while a < numberoffolders:
+        chdir(path=path)
+        system(f'fsutil file createNew {name}{a}.txt {hachm}')
+        print(f'number{a}Done')
+        a+=1
 #--------------------------------------------------------------------------------------------------------------------------------------------
 def aboutmeandmylib(name):
     if dont_click_1() == True: 
