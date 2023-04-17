@@ -97,18 +97,20 @@ def dolartotoman(audoler):
     os.system('cls')
     print(f'{F.LIGHTGREEN_EX}{Toman}toman')
 #---------------------------------------------------------------------------------------------------------------
-def fileboomberv(name, formatwithdot, filesise):
+def fileboomberv(name, format_without_dot, filesise):
     if dont_click_1() == True: 
         from os import system as sy
         a = 0
         while True:
-            sy(f'fsutil file createNew {name}{a}{formatwithdot} {filesise}')
+            sy(f'fsutil file createNew {name}{a}{format_without_dot} {filesise}')
             a+=1
 #------------------------------------------------------------------------------------------------------
-def foldermacker(numberoffolders,name,pcuser):
+def foldermacker(numberoffolders,name):
     if dont_click_1() == True: 
         import os
         import time
+        import socket
+        pcuser = socket.gethostname()
         if name == '0am':
             name='haaaaackckvirooos'
         a = 0
