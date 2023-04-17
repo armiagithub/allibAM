@@ -1,0 +1,12 @@
+socket
+winsound
+colorama
+random
+keyboard
+pyautogui
+tkinter.messagebox
+tkinter
+turtle
+pyttsx3
+subprocess
+itertools
